@@ -18,37 +18,20 @@ entries:
             output: pdf
             type: frontmatter
 
-      - title: Index
+      - title: Introduce Dev.Ellin
         output: web, pdf
         folderitems:
-          - title: GitPages ( Jekyll )
+          - title: Hello
             url: /index.html
             output: web, pdf
             type: homepage
 
-          # - title: Introduction
-          #   url: /mydoc_introduction.html
-          #   output: web, pdf
-
-          # - title: Supported features
-          #   url: /mydoc_supported_features.html
-          #   output: web, pdf
-
-          # - title: About the theme author
-          #   url: /mydoc_about.html
-          #   output: web, pdf
-
-          # - title: Support
-          #   url: /mydoc_support.html
-          #   output: web, pdf
-
-    # - title: Release Notes
-    #   output: web, pdf
-    #   folderitems:
-
-    #   - title: 6.0 Release notes
-    #     url: /mydoc_release_notes_60.html
-    #     output: web, pdf
+      - title: Git, Github
+        output: web, pdf
+        folderitems:
+          - title: Github 블로그 만들기 (github.io)
+            url: /mydoc_git_01_make_blog.html
+            output: web, pdf
 
     #   - title: 5.0 Release notes
     #     url: /mydoc_release_notes_50.html
